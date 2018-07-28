@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+   <script src="./jquery.min.js"></script>
+    <title>Document</title>
+  <style>
+  body{
+      background-color: #22313f
+  }
+ #starbox{
+     position:fixed;
+     left: 0;
+     right:0;
+     top:0;
+     bottom:0;
+     background-color :rgba(0,0,0,0.75);
+     opacity: 0.5;
+  }
+  #starbox span{
+      display: inline-block;
+      width: auto;
+     
+      background-color: rgb(255, 0, 0);
+      border-radius: 50%;
+      position: absolute;
+      transition: all 30s;
+  }
+  .love{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      right: 0;
+
+  }
+  .love p{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+     color: #fff;
+     font-size: 30px;
+      transform: translate(-50%,-50%);
+  }
+  </style>
+</head>
+<body>
+    <div id="starbox"></div>
+     <span></span>
+     <div class="love">
+         <p></p>
+     </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
