@@ -1,6 +1,6 @@
 var cols=['#ff0000',"#cc00cc","#f4d03f","#ececec","#bcbcbc"];
 var stars=520;
-var txt="挺想做程序员的但是如果真的差距太大 或者太难请不要犹豫 可以拒绝我就我说一声就可以了";
+var txt="挺想做程序员的但是如果真的差距太大 或者太难请不要犹豫 可以拒绝我就我说一声就可以了，期待你的回复";
 var index=0;
 for(var i=0;i<=stars;i++){
 var size=Math.random()*3;//生成随机数0-1
